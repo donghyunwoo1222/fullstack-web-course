@@ -1,0 +1,54 @@
+/* 페이지 전체 기본 스타일 */
+body {
+    font-family: Arial, sans-serif; /* 기본 글꼴: 고딕 계열(깔끔한 글자) */
+    color: #334155;                 /* 기본 글자색: 진한 회청색 */
+    background-color: #f8fafc;      /* 페이지 배경: 아주 옅은 회색 */
+}
+
+/* header 태그 스타일 (태그 선택자) */
+header {
+    background-color: #1e293b; /* 배경: 어두운 남색 */
+    color: white;              /* 글자색: 흰색 */
+    text-align: center;        /* 글자 가운데 정렬 */
+}
+
+/* 클래스 선택자: 앞에 . 을 붙임 */
+.member-card {
+    background-color: white; /* 카드 배경: 흰색 */
+}
+
+/* h1 태그: 큰 제목 */
+h1 {
+    font-size: 32px; /* 글자 크기 32px */
+}
+
+/* h2 태그: 카드 제목 */
+h2 {
+    color: #0f766e; /* 글자색: 청록색 */
+}
+
+/* 아이디 선택자: 앞에 # 을 붙임 (딱 하나의 요소) */
+#signup-form {
+    background-color: #ecfeff; /* 폼 배경: 옅은 하늘색 */
+}
+
+/* 클래스 선택자: 같은 버튼 여러 개에 재사용 가능 */
+.primary-button {
+    background-color: #0f766e; /* 버튼 배경: 청록색 */
+    color: white;              /* 버튼 글자: 흰색 */
+}
+
+/* 1순위(가장 약함): 태그 선택자 */
+p {
+    color: blue; /* 모든 p 태그를 파란색으로 */
+}
+
+/* 2순위: 클래스 선택자 (태그보다 구체적) */
+.notice {
+    color: green; /* class="notice"인 요소만 초록색 */
+}
+
+/* 3순위(가장 강함): 아이디 선택자 */
+#important {
+    color: red; /* id="important"인 요소를 빨간색으로 */
+}

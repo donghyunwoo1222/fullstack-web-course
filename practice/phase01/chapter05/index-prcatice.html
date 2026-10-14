@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>padding / margin / border 실습</title>
+    <!-- style.css 연결 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>회원 카드 실습</h1>
+
+    <!-- 같은 클래스(member-card)를 가진 카드 2개 -->
+    <section class="member-card">
+        <h2>홍길동 회원</h2>
+        <p>이메일: gildong@example.com</p>
+    </section>
+
+    <section class="member-card">
+        <h2>김철수 회원</h2>
+        <p>이메일: chulsoo@example.com</p>
+    </section>
+    <!-- box-sizing 비교용 박스 2개 -->
+    <div class="box">기본값 (content-box)</div>
+    <div class="box box-border">border-box 적용</div>    
+    <!-- display 비교용 -->
+    <!-- div: 기본이 block -->
+    <div class="demo-block">block 1 (div)</div>
+    <div class="demo-block">block 2 (div)</div>
+
+    <!-- span: 기본이 inline -->
+    <span class="demo-inline">inline 1 (span)</span>
+    <span class="demo-inline">inline 2 (span)</span>
+    <a class="button-link" href="#">회원 등록</a>
+    <a class="button-link" href="#">취소</a>
+</body>
+</html>
